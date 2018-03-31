@@ -4,9 +4,10 @@ public class Main {
 
 	public static void main(String [] args) {
 		
-		Bank bank = new Bank();
+
+		Civic civic = new Civic(4, 1, true, 5);
 		
-		System.out.println("asdf");
+		System.out.println(civic.toString());
 	}
 
 }
